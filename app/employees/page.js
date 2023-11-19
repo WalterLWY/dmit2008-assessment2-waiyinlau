@@ -15,18 +15,30 @@
       data structure.... components
 
 */
-import { readFile } from "fs/promises";
+
+// Week 5 - Class 1 - Employee Instructor - 1
+// import { readFile } from "fs/promises";
 
 // Mock GET request to the API return all of the things
 // employees..   api/employees/departments/pancake
 //   departments=pancakes
+
+// Week 5 - Class 2 - Employee Instructor - 2
+// Making GET request to the API
+// requesting to get all the employee data
+
+import { Card } from "../components/card/Card"
+
 async function getEmployees(){
-    const filePath = `${process.cwd()}/app/data/employees.json`
-    const fileContents = await readFile(filePath, 'utf-8')
-    const employees = JSON.parse(fileContents)
-   
-    return employees
-}
+    // const filePath = `${process.cwd()}/app/data/employees.json`
+    // const fileContents = await readFile(filePath, 'utf-8')
+    // const employees = JSON.parse(fileContents)
+    // return employees
+
+    const res = await fetch (`http://localhost:3000/api/employees`)
+    const payload = await res.json()
+    return payload  
+    }
 
  async function EmployeesPage ({children}) {
 
@@ -41,7 +53,8 @@ async function getEmployees(){
       </header>
       <main className=" min-h-screen py-24">
         {
-          employees.map(employee => console.log("employee card compon"))
+          // employees.map(employee => console.log("employee card compon"))
+          employees.map((employee) => <Card key={employee.id}  {...employee} />) 
         }
       </main>
   

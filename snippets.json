@@ -1,0 +1,161 @@
+{
+  "next pape component": {
+    "prefix": "nxtp",
+    "body": [
+      " ",
+      "",
+      " function $1 ({children}) {",
+      "  return (",
+      "    <>",
+      "     ${3: ",
+      "    ",
+      "      <header className=\"text-center pt-28\">",
+      "        <h2 className=\"text-5xl text-slate-900\">$1 Page Component </h2>",
+      "      </header>",
+      "      <main className=\" min-h-screen py-24\">",
+      "        {children\\}",
+      "      </main>",
+      "  ",
+      "     }",
+      "    </>",
+      "  );",
+      "}",
+      "",
+      "export default $1"
+    ],
+    "description": "next pape component"
+  },
+
+  "Next Fetch": {
+    "prefix": "nxtff",
+    "body": [
+      " async function $1(url){",
+      "    const res = await fetch(${2:`url`})",
+      "    const payload = await res.json()",
+      "    return payload",
+      " }"
+    ],
+    "description": "Next Fetch"
+  },
+  "Next Async Page Component": {
+    "prefix": "nxtap",
+    "body": [
+      " async function $1 ({children}) {",
+      "  return (",
+      "    $0<>",
+      "      <header className=\"text-center pt-28\">",
+      "        <h2 className=\"text-5xl text-slate-900\">EmployeesPage Page Component </h2>",
+      "      </header>",
+      "      <main className=\" min-h-screen py-24\">",
+      "        {children}",
+      "      </main>",
+      "    </>",
+      "  );",
+      "}",
+      "",
+      "export default $1"
+    ],
+    "description": "Next Async Page Component"
+  },
+
+
+
+    "next client component": {
+      "prefix": "nxtc",
+      "body": [
+        "\"use client\"",
+        "",
+        " function $1 (${2: {children\\}}){",
+        "    return (",
+        "        <>",
+        "        <p>$1 Client Component</p>",
+        "        {children}",
+        "        </>",
+        "    )",
+        " }",
+        "",
+        "",
+        "",
+        " export {$1}"
+      ],
+      "description": "next client component"
+    },
+
+  
+  
+  
+    "next server component": {
+      "prefix": "nxts",
+      "body": [
+        "",
+        "function $1( ${2:props} ){",
+        "     return( ",
+        "       <header className=\"text-center pt-28\">",
+        "          <h1 className=\"min-h-screen text-5xl text-slate-900\">",
+        "             $1 Server Component</h1>",
+        "       </header>",
+        "     )",
+        " }",
+        "",
+        " export {$1}"
+      ],
+      "description": "Next Component"
+    },
+   
+    "next api route.js funciton": {
+      "prefix": "nxtr",
+      "body": [
+        "async function ${1:GET} (request) {",
+        "  $0",
+        "}",
+        "",
+        "export {${1:GET}}"
+      ],
+      "description": "next api route.js funciton"
+    },
+    "next functional component": {
+      "prefix": "nxtfc",
+      "body": [
+        " function $1 ( {children}){",
+        "    return (",
+        "       ${0: <>",
+        "        <p> $1 Component</p>",
+        "        {children\\}",
+        "        </>}",
+        "    )",
+        " }",
+        "",
+        "",
+        "",
+        " export {$1}"
+      ],
+      "description": ""
+    },
+    "next async functional component": {
+      "prefix": "nxtafc",
+      "body": [
+        "async function $1 ( {children}){",
+        "    return (",
+        "       ${0: <>",
+        "        <p> $1 Component</p>",
+        "        {children\\}",
+        "        </>}",
+        "    )",
+        " }",
+        "",
+        "",
+        "",
+        " export {$1}"
+      ],
+      "description": ""
+    },
+    "fetch code": {
+      "prefix": "nxtfetch",
+      "body": [
+        "  const res = await fetch(`$1`)",
+        "  const payload = await res.json()",
+        "  return payload  "
+      ],
+      "description": "fetch code"
+    }
+}
