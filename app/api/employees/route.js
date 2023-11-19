@@ -26,12 +26,13 @@
         
         route path http://localhost:3000/api/employees
 */ 
- 
-async function GET (request, response) {
-    const res = await fetch(`https://jsonplaceholder.typicode.com/users`)
-    const payload = await res.json()
-    return Response.json(payload)  
-}
 
-export {GET}
+// Week 6 - Class 1 - Employee Instructor - 3 - Disable these codes
+// async function GET (request, response) {
+//     const res = await fetch(`https://jsonplaceholder.typicode.com/users`)
+//     const payload = await res.json()
+//     return Response.json(payload)  
+// }
+
+// export {GET}
 

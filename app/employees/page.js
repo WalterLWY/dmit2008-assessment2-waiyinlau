@@ -41,8 +41,19 @@ async function getEmployees(){
     }
 
  async function EmployeesPage ({children}) {
-
+        // RTDB---> Object of Objects  Nosql
+        // Object extract the keys----Object.keys()
   const employees = await getEmployees()
+  const keys = Object.keys(employees)
+        // map filter find sort reduce....
+        // obj.propname  associative array
+        //  first_name
+        //  obj['propname']
+        // array[0] index array
+
+  keys.map(key=> {
+    console.log(employees[key])
+  })
 
   return (
     <>
@@ -54,7 +65,7 @@ async function getEmployees(){
       <main className=" min-h-screen py-24">
         {
           // employees.map(employee => console.log("employee card compon"))
-          employees.map((employee) => <Card key={employee.id}  {...employee} />) 
+          // employees.map((employee) => <Card key={employee.id}  {...employee} />) 
         }
       </main>
   
