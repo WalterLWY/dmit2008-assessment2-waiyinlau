@@ -2,6 +2,7 @@
 
 #project
 /keys
+/docs
 
 # dependencies
 /node_modules
