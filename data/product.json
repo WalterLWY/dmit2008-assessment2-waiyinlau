@@ -1,0 +1,186 @@
+{
+    "product":{
+        
+        "-Nj_xKhBxCic2FuKGCpA": {
+            "uid": "ea1cc3ac-281e-4cc8-bd7c-06ef4d5ccf07",
+            "product_name": "Worcestershire Sauce",
+            "brand": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
+            "price": 24.4,
+            "quantity": 96,
+            "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+            "category": "food",
+            "expiration_date": "3/4/2024",
+            "weight": 7.1,
+            "manufacturer": "Bayer Group",
+            "country_of_origin": "Indonesia",
+            "image_url": "http://dummyimage.com/144x100.png/ff4444/ffffff"
+          },
+          "-Nj_xKhDM5FZInDDEe7f": {
+            "uid": "201ed616-7602-4ff2-950a-63f4bcf550e0",
+            "product_name": "Cup - 8oz Coffee Perforated",
+            "brand": "http://dummyimage.com/232x100.png/dddddd/000000",
+            "price": 3.23,
+            "quantity": 10,
+            "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "category": "household",
+            "expiration_date": "1/11/2024",
+            "weight": 6.4,
+            "manufacturer": "Harber, McGlynn and Witting",
+            "country_of_origin": "Montenegro",
+            "image_url": "http://dummyimage.com/177x100.png/cc0000/ffffff"
+          },
+          "-Nj_xKhGvD_qxcJpbgGH": {
+            "uid": "d00c88dc-205d-42e5-bc05-f2942c4aa59c",
+            "product_name": "Cup - 8oz Coffee Perforated",
+            "brand": "http://dummyimage.com/137x100.png/dddddd/000000",
+            "price": 65.02,
+            "quantity": 54,
+            "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+            "category": "household",
+            "expiration_date": "7/12/2024",
+            "weight": 9.6,
+            "manufacturer": "Breitenberg-Ullrich",
+            "country_of_origin": "Niger",
+            "image_url": "http://dummyimage.com/228x100.png/dddddd/000000"
+          },
+          "-Nj_xKhIZb_xodZpuaOa": {
+            "uid": "030c9078-8b1a-4655-87b4-97bd0703277c",
+            "product_name": "Cleaner - Pine Sol",
+            "brand": "http://dummyimage.com/159x100.png/ff4444/ffffff",
+            "price": 20.63,
+            "quantity": 73,
+            "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+            "category": "beverage",
+            "expiration_date": "11/1/2025",
+            "weight": 0.7,
+            "manufacturer": "Harris and Sons",
+            "country_of_origin": "France",
+            "image_url": "http://dummyimage.com/169x100.png/5fa2dd/ffffff"
+          },
+          "-Nj_xKhKyNJKwPxCRqWa": {
+            "uid": "04a1ec2b-fa4c-4c7f-a0c8-fc6a40ce1565",
+            "product_name": "Milk Powder",
+            "brand": "http://dummyimage.com/163x100.png/ff4444/ffffff",
+            "price": 46.39,
+            "quantity": 59,
+            "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+            "category": "household",
+            "expiration_date": "10/29/2024",
+            "weight": 2.1,
+            "manufacturer": "Anderson LLC",
+            "country_of_origin": "Russia",
+            "image_url": "http://dummyimage.com/123x100.png/ff4444/ffffff"
+          },
+          "-Nj_xKhMBNpAi-jpMIb9": {
+            "uid": "8d62fe77-95e3-497a-925f-ed05452e7e1f",
+            "product_name": "Pork - Bacon, Sliced",
+            "brand": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
+            "price": 22.98,
+            "quantity": 80,
+            "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+            "category": "food",
+            "expiration_date": "6/9/2025",
+            "weight": 3.5,
+            "manufacturer": "Batz, Emmerich and Bechtelar",
+            "country_of_origin": "Australia",
+            "image_url": "http://dummyimage.com/125x100.png/cc0000/ffffff"
+          },
+          "-Nj_xKhOVKyUMpGehOcI": {
+            "uid": "83fc0dc7-9e59-442b-884a-a5bba8e810cf",
+            "product_name": "Wine - Conde De Valdemar",
+            "brand": "http://dummyimage.com/179x100.png/dddddd/000000",
+            "price": 13.56,
+            "quantity": 38,
+            "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+            "category": "beverage",
+            "expiration_date": "3/10/2025",
+            "weight": 3.3,
+            "manufacturer": "Hilpert-Kuvalis",
+            "country_of_origin": "Democratic Republic of the Congo",
+            "image_url": "http://dummyimage.com/226x100.png/cc0000/ffffff"
+          },
+          "-Nj_xKhRYhQvaq4rYVVL": {
+            "uid": "0d157476-ad64-45d0-9084-70c265a23054",
+            "product_name": "Wine - Guy Sage Touraine",
+            "brand": "http://dummyimage.com/178x100.png/cc0000/ffffff",
+            "price": 72.44,
+            "quantity": 17,
+            "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+            "category": "food",
+            "expiration_date": "7/15/2025",
+            "weight": 4.6,
+            "manufacturer": "Wiza, Kohler and Reilly",
+            "country_of_origin": "China",
+            "image_url": "http://dummyimage.com/191x100.png/dddddd/000000"
+          },
+          "-Nj_xKhTXMguofvTL1Sn": {
+            "uid": "eda8359a-cca8-4835-9595-fec2a1353987",
+            "product_name": "Evaporated Milk - Skim",
+            "brand": "http://dummyimage.com/163x100.png/dddddd/000000",
+            "price": 4.46,
+            "quantity": 78,
+            "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+            "category": "household",
+            "expiration_date": "2/11/2025",
+            "weight": 0.8,
+            "manufacturer": "Dooley-Beier",
+            "country_of_origin": "Indonesia",
+            "image_url": "http://dummyimage.com/237x100.png/cc0000/ffffff"
+          },
+          "-Nj_xKhdOCTXHrVLtCAt": {
+            "uid": "dad38232-b952-42de-911a-0ed598960931",
+            "product_name": "Table Cloth 81x81 Colour",
+            "brand": "http://dummyimage.com/220x100.png/5fa2dd/ffffff",
+            "price": 44.21,
+            "quantity": 20,
+            "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+            "category": "food",
+            "expiration_date": "1/19/2024",
+            "weight": 3.4,
+            "manufacturer": "Schneider Group",
+            "country_of_origin": "Chile",
+            "image_url": "http://dummyimage.com/144x100.png/5fa2dd/ffffff"
+          },
+          "-Nj_xKhgz_33CB4VXmTm": {
+            "uid": "2019c2c1-c383-426e-b3de-1045102e41f6",
+            "product_name": "Curry Powder Madras",
+            "brand": "http://dummyimage.com/212x100.png/cc0000/ffffff",
+            "price": 36.09,
+            "quantity": 80,
+            "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+            "category": "beverage",
+            "expiration_date": "11/4/2025",
+            "weight": 2.1,
+            "manufacturer": "Batz, Gislason and Jerde",
+            "country_of_origin": "Czech Republic",
+            "image_url": "http://dummyimage.com/147x100.png/cc0000/ffffff"
+          },
+          "-Nj_xKhiRC4OJ_SMzOMy": {
+            "uid": "9cf2079d-8794-4340-8951-1bc5e1235286",
+            "product_name": "Carbonated Water - Strawberry",
+            "brand": "http://dummyimage.com/153x100.png/dddddd/000000",
+            "price": 71.02,
+            "quantity": 29,
+            "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+            "category": "food",
+            "expiration_date": "3/28/2025",
+            "weight": 5.5,
+            "manufacturer": "Conroy Inc",
+            "country_of_origin": "Uruguay",
+            "image_url": "http://dummyimage.com/109x100.png/dddddd/000000"
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
