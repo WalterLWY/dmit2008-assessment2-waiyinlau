@@ -5,44 +5,11 @@ async function getProducts(){
     return await res.json()
 }
 
-// async function ProductsPage ({children}) {
-//     const products = await getProducts()
-//     const keys = Object.keys(products)
-//     keys.map(key=> {
-//       console.log(products[key])
-//     })
-//     return (
-//     <>
-      
-//       <header className="text-center pt-28">
-//         <h2 className="text-medium text-green-800">Check Out Our Products!</h2>
-//       </header>
-//       <main className=" min-h-screen py-24">
-//         {
-//           products.map((product) => <Card key={product.uid}  {...product} />) 
-//         }
-//       </main>
-     
-//     </>
-//   );
-// }
-
-
 async function ProductsPage ({children}) {
-        // RTDB---> Object of Objects  Nosql
-        // Object extract the keys----Object.keys()
-  const employees = await getProducts()
-  const keys = Object.keys(employees)
-        // map filter find sort reduce....
-        // obj.propname  associative array
-        // first_name
-        // obj['propname']
-        // array[0] index array
-
-  keys.map(key=> {
-    console.log(employees[key])
+  const products = await getProducts()
+  const productDetails = Object.keys(products).map(key=>{
+        return products[key]
   })
-
   return (
     <>
       
@@ -50,10 +17,9 @@ async function ProductsPage ({children}) {
       <header className="text-center pt-28">
         <h2 className="text-medium text-green-800">Check Out Our Products!</h2>
       </header>
-      <main className=" min-h-screen py-24">
+      <main className=" min-h-screen py-60 my-1">
         {
-          // employees.map(employee => console.log("employee card compon"))
-          employees.map((employee) => <Card key={employee.id}  {...employee} />) 
+          productDetails.map((product) => <Card key={product.uid}  {...product} />) 
         }
       </main>
   

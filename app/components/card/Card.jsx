@@ -6,15 +6,15 @@
 
 function Card ({product_name, price, image_url, description, uid} ){
     return (
-         <aside className="w-[320px] h-[250px] bg-gray-50">
+         <aside className="w-[500px] h-[400px] bg-green-50">
             <header>
                 <h2>{product_name}</h2>
             </header>
             <ul>
                 <li><img src={image_url} alt="product-image" /></li>
-                <li>{price}</li>
-                <li>{description}</li>
-                <li>{uid}</li>
+                <li>Price: {price}</li>
+                <li>Description: {description}</li>
+                <li>Product ID: {uid}</li>
             </ul>
          </aside>
        
