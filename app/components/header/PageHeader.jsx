@@ -1,10 +1,8 @@
-// Week 5 - Class 1 - Employee Start
 function PageHeader ({children}){
     return (
-        // Week 5 - Class 1 - Employee Instructor - 1
-        <header className="bg-gray-100 w-fit mx-auto">
-            <h1>Page Header</h1>
-            <p>Tagline</p>
+        <header className="bg-green-100 px-48 py-24 w-fit my-5 mx-auto">
+            <h1 className="text-center font-extrabold">Super Savings Store</h1>
+            <p className="text-center">Come and Save!!</p>
         </header>
     )
  }

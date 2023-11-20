@@ -60,12 +60,12 @@ async function getEmployees(){
       
     
       <header className="text-center pt-28">
-        <h2 className="text-5xl text-slate-900">EmployeesPage Page Component </h2>
+        <h2 className="text-medium text-green-800">Check Out Our Products!</h2>
       </header>
       <main className=" min-h-screen py-24">
         {
           // employees.map(employee => console.log("employee card compon"))
-          // employees.map((employee) => <Card key={employee.id}  {...employee} />) 
+          employees.map((employee) => <Card key={employee.id}  {...employee} />) 
         }
       </main>
   
