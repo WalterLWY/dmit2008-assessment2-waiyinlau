@@ -1,3 +1,4 @@
+import Link from 'next/link'
 // Week 5 - Class 2 - Employee Instructor - 2
 /* 
            Presentational Component
@@ -6,15 +7,16 @@
 
 function Card ({product_name, price, image_url, description, uid} ){
     return (
-         <aside className="w-[500px] h-[400px] bg-green-50">
+         <aside className="w-[500px] m-2 bg-green-50">
             <header>
                 <h2>{product_name}</h2>
             </header>
             <ul>
-                <li><img src={image_url} alt="product-image" /></li>
+                <li><img src={image_url} alt="product-image" width={150}/></li>
                 <li>Price: {price}</li>
                 <li>Description: {description}</li>
                 <li>Product ID: {uid}</li>
+                <li><Link className='text-blue-600 font-semibold' href={`/product/${uid}`}>Single Product Link to Product Page {uid}</Link></li>
             </ul>
          </aside>
        
