@@ -1,11 +1,11 @@
-import { SingleProductCard } from "../components/card/SingleProductCard"
-import {getProducts} from "../products/page"
+import { SingleProductCard } from "../../components/card/SingleProductCard"
+import {getProducts} from "../../products/page"
 import Link from 'next/link'
 
 
 async function getProduct(id){
     const payload = await getProducts()
-    const products = Object.keys(payload)
+    const products = Object.values(payload)
     const singleItem = products.find(item => item.uid == id)
     return singleItem
 }
@@ -13,11 +13,10 @@ async function getProduct(id){
 async function ProductPage ({params}){
     const id = params.id
     const productData = await getProduct(id)
+    console.log(productData)
     return (
         <>
-            <main className="min-h-screen py-24">
-                <SingleProductCard key={productData.uid} />
-            </main>
+            <SingleProductCard key={productData.uid}{...productData}/>
         </>
     )
 }

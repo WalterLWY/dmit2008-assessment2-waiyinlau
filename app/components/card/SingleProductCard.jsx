@@ -4,14 +4,9 @@ import Image from 'next/image'
 
 function SingleProductCard ({product_name, price, image_url, description, uid}){
     return (
-           <aside>
+           <aside className='m-10 px-10'>
             <h2>{product_name}</h2>
-            <Image
-             src={image_url}
-             width={200}
-             height={200}
-             alt={product_name}
-            />
+            <img src={image_url} alt="product-image" width={150}/>
             <p>Price: {price}</p>
             <p>UID: {uid}</p>
             <p>Description: {description}</p>
