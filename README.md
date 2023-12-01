@@ -25,3 +25,11 @@ https://assessment2-product-default-rtdb.firebaseio.com/product.json
 ## Task 6: Products Page Display - Completed
 
 ## Task 7: Navigation - Completed
+
+# Assignment 3 Single Product Component
+
+## Task 1: Single Product Page - Completed
+
+## Task 2: Create the Route Link - Completed
+
+## Task 3: Single Page Data Fetching - Completed
