@@ -4,12 +4,12 @@ import Image from 'next/image'
 
 function SingleProductCard ({product_name, price, image_url, description, uid}){
     return (
-           <aside className='m-10 px-10'>
-            <h2>{product_name}</h2>
-            <img src={image_url} alt="product-image" width={150}/>
-            <p>Price: {price}</p>
-            <p>UID: {uid}</p>
-            <p>Description: {description}</p>
+           <aside className='m-10 p-10 bg-green-200'>
+            <h2 className='p-1 font-bold text-lg'>{product_name}</h2>
+            <img className='p-1' src={image_url} alt="product-image" width={150}/>
+            <p className='p-1 font-bold'>Price: {price}</p>
+            <p className='p-1 font-bold'>UID: {uid}</p>
+            <p className='p-1'>Description: {description}</p>
             <Link className='text-blue-600 font-semibold' href={`/products`}>Back to Products Page</Link>
   
            </aside>

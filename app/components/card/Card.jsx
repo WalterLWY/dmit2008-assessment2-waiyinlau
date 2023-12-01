@@ -7,15 +7,15 @@ import Link from 'next/link'
 
 function Card ({product_name, price, image_url, description, uid} ){
     return (
-         <aside className="w-[500px] m-2 bg-green-50">
+         <aside className="w-96 m-4 p-4 bg-green-200 shadow-lg">
             <header>
-                <h2>{product_name}</h2>
+                <h2 className='text-lg py-2 font-bold'>{product_name}</h2>
             </header>
             <ul>
-                <li><img src={image_url} alt="product-image" width={150}/></li>
-                <li>Price: {price}</li>
-                <li>Description: {description}</li>
-                <li>Product ID: {uid}</li>
+                <li><img src={image_url} alt="product-image" width={150} height={100}/></li>
+                <li className='font-bold p-1'>Price: {price}</li>
+                <li className='p-1'>Description: {description}</li>
+                <li className='p-1 font-bold'>Product ID: {uid}</li>
                 <li><Link className='text-blue-600 font-semibold' href={`/product/${uid}`}>Single Product Link to Product Page {uid}</Link></li>
             </ul>
          </aside>

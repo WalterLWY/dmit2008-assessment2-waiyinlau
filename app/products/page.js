@@ -15,10 +15,10 @@ async function ProductsPage () {
     <>
       
     
-      <header className="text-center pt-28">
-        <h2 className="text-medium text-green-800">Check Out Our Products!</h2>
+      <header className="text-center p-12">
+        <h2 className="text-extrabold text-4xl text-green-800">Check Out Our Products!</h2>
       </header>
-      <main className="min-h-screen py-60 my-1">
+      <main className="p-10 my-5 flex flex-wrap justify-center">
         {
           productDetails.map((product) => <Card key={product.uid}  {...product} />) 
         }
