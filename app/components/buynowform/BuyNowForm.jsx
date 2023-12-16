@@ -13,8 +13,8 @@ function BuyNow({priceId }) {
     <input
     type="hidden"
     name="price"
-    value="price_1ONjpPGevZsMT7u0P4Gxz1yX"
-    //{priceId}
+    value={priceId}
+    
     />
     <button
     type="submit"

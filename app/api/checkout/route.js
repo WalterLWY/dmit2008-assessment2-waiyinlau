@@ -16,7 +16,7 @@ mode: "payment",
 line_items: [
 {
 price:"price_1ONjpPGevZsMT7u0P4Gxz1yX",
-quantity:1,
+quantity:quantity,
 },
 ],
 success_url: `${headers().get("origin")}/success`,
