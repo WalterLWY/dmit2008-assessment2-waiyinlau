@@ -6,6 +6,7 @@ async function POST(request) {
 console.clear();
 const body = await request.formData();
 const formData = new FormData();
+const id = body.get("id");
 const price = body.get("price");
 const quantity = 1;
 
@@ -14,8 +15,8 @@ const checkoutSession = await stripe.checkout.sessions.create({
 mode: "payment",
 line_items: [
 {
-price,
-quantity,
+price:"price_1ONjpPGevZsMT7u0P4Gxz1yX",
+quantity:1,
 },
 ],
 success_url: `${headers().get("origin")}/success`,
