@@ -33,3 +33,19 @@ https://assessment2-product-default-rtdb.firebaseio.com/product.json
 ## Task 2: Create the Route Link - Completed
 
 ## Task 3: Single Page Data Fetching - Completed
+
+# Assignment 4 Stripe Payment
+
+## Task 1: Stripe Secret Key and Local Environment Setup - Completed
+
+## Task 2: Add Checkout Route - PROBLEM encountered
+### Route is successful only when the Price is hard-coded.
+### When Price: price -> Host Error 500 resulted.
+
+## Task 3: Adding Price_ID to Firebase Data - Completed
+
+## Task 4: Stripe Checkout Button - Successfully routed to Stripe Payment Page
+
+## Task 5: Success and Canceled Page - PROBLEM encountered
+### Success/Canceled Page only successfully loaded in the Local environment
+### In Vercel, an error 404 resulted
